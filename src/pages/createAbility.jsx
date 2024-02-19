@@ -26,7 +26,9 @@ function createAbility() {
     }
   };
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
+      {" "}
+      {/*On dit à notre form ce qui se passe exactement : on envoie des données au backend*/}
       <input
         type="text"
         value={name}

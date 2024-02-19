@@ -5,7 +5,7 @@ function Logout() {
   const handlelogout = () => {
     localStorage.removeItem("token");
   };
-  return <Button onClick={handlelogout}>Log out </Button>;
+  return <button onClick={handlelogout}>Log out </button>;
 }
 
 export default Logout;
